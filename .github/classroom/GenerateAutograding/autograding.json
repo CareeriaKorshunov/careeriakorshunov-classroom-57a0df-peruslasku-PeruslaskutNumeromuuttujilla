@@ -1,0 +1,15 @@
+{
+  "tests": [
+
+    {
+      "name": "Unit Tests (PeruslaskutNumeromuuttujilla)",
+      "setup": "",
+      "run": "DOTNET_CLI_HOME=/home/runner dotnet test --filter TestGroup=PeruslaskutNumeromuuttujilla",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 100
+    }
+  ]
+}
